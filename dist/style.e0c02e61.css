@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 10px;
 }
 
@@ -25,9 +25,11 @@ body {
   grid-template-columns: repeat(4, minmax(160px, 1fr));
   justify-items: center;
   list-style-type: none;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 1%;
+  font-family: "Lexend Exa", sans-serif;
+  letter-spacing: 0.01em;
 }
 #header #nav-list a:link, #header #nav-list a:visited {
   text-decoration: none;
@@ -62,6 +64,27 @@ body {
 
 #main {
   background: #B0CBF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main #focus {
+  width: 76%;
+  margin: 2%;
+}
+#main #focus #charles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  width: 100%;
+}
+#main #blurb {
+  position: absolute;
+  font-size: 1.7rem;
+  color: white;
+  width: 60%;
+  font-weight: 600;
+  transform: translateY(75%);
 }
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */
