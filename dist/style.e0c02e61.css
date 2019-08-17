@@ -7,6 +7,7 @@
 body {
   font-family: "Oswald", sans-serif;
   font-size: 10px;
+  color: #111;
 }
 
 #header {
@@ -18,18 +19,17 @@ body {
 #header #logo {
   width: 22vh;
   height: auto;
-  margin: 1% 8% 1% 14%;
+  margin: 1% 5% 1% 14%;
 }
 #header #nav-list {
   display: grid;
   grid-template-columns: repeat(4, minmax(160px, 1fr));
   justify-items: center;
   list-style-type: none;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1%;
   font-family: "Lexend Exa", sans-serif;
-  letter-spacing: 0.01em;
 }
 #header #nav-list a:link, #header #nav-list a:visited {
   text-decoration: none;
@@ -39,7 +39,7 @@ body {
   color: #b949f5;
 }
 #header #nav-list img {
-  padding-right: 3px;
+  padding-right: 4px;
 }
 #header #header-info {
   position: absolute;
@@ -64,27 +64,48 @@ body {
 
 #main {
   background: #B0CBF1;
+  padding: 0% 18%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 3%;
 }
-#main #focus {
-  width: 76%;
-  margin: 2%;
+#main #left #blurb-header {
+  font-size: 2rem;
+  padding: 2% 0%;
+  color: #b949f5;
 }
-#main #focus #charles {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(160px, 1fr));
-  width: 100%;
-}
-#main #blurb {
-  position: absolute;
-  font-size: 1.7rem;
-  color: white;
-  width: 60%;
+#main #left #blurb {
+  font-size: 1.4rem;
+  width: 80%;
   font-weight: 600;
-  transform: translateY(75%);
+}
+#main #left #book {
+  padding: 5% 0%;
+}
+#main #left ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+#main #right {
+  text-align: center;
+  font-size: 1rem;
+}
+#main #right #right-phone {
+  color: #b949f5;
+  font-size: 2rem;
+}
+#main #right #right-email {
+  color: #b949f5;
+  font-size: 2rem;
+}
+#main #right #doggo {
+  height: 500px;
+  margin-top: 5%;
+}
+
+#footer {
+  text-align: center;
+  background: #A8EEED;
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */
