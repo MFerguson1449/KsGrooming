@@ -12,6 +12,7 @@ body {
    color: $black;
 }
 
+// !Home Page! //
 #header {
    background: $backdrop1;
    display: flex;
@@ -107,6 +108,35 @@ body {
    }
  
 }
+
+// !Services! //
+
+#services {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   #service-box {
+      border: 2px solid #E6ECF8;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 2%;
+   }
+   #service-header{
+      font-size: 1.5rem;
+   }
+   #service-sort {
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      .service-obj {
+         padding: 60px 40px;
+         border: 1px solid #E6ECF8;
+      }
+   }
+}
+
 
 #footer {
    text-align: center;

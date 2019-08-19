@@ -102,6 +102,32 @@ body {
   margin-top: 5%;
 }
 
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#services #service-box {
+  border: 2px solid #E6ECF8;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 2%;
+}
+#services #service-header {
+  font-size: 1.5rem;
+}
+#services #service-sort {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+#services #service-sort .service-obj {
+  padding: 60px 40px;
+  border: 1px solid #E6ECF8;
+}
+
 #footer {
   text-align: center;
   background: #A8EEED;
