@@ -50,7 +50,7 @@ body {
       text-align: right;
       font-size: 1.4rem;
       padding-right: 10px;
-      #services {
+      #available {
          color: #333;
       }
       #phone {
@@ -117,23 +117,56 @@ body {
    justify-content: center;
    align-items: center;
    text-align: center;
+   background: $backdrop2;
    #service-box {
-      border: 2px solid #E6ECF8;
+      border: 2px solid $black;
       border-radius: 20px;
-      padding: 20px;
       margin: 2%;
+      box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+      background: #fafafa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
    }
    #service-header{
       font-size: 1.5rem;
+      padding-bottom: 10px;
+      border-bottom: #E6ECF8 solid 2px;
+      width: 90%;
    }
    #service-sort {
       text-align: center;
       display: grid;
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin: 0% 5%;
       .service-obj {
-         padding: 60px 40px;
-         border: 1px solid #E6ECF8;
+         padding: 60px 10px;
+         border-right: 1px solid #E6ECF8;
+         border-left: 1px solid #E6ECF8;
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
       }
+      h2 {
+         font-size: 1.6rem;
+         padding: 10px 0px;
+         color: $brandPurple;
+      }
+      h3 {
+         font-size: 1rem;
+         padding: 5px 0px;
+      }
+      .service-desc {
+         width: 70%;
+         font-size: 1.1rem;
+         font-weight: 500;
+         letter-spacing: 0.02em;
+         color: $grey;
+      }
+   }
+   #book {
+      margin-bottom: 20px;
    }
 }
 
